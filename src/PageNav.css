@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background: #143879;
+  color: white;
+}
+
+.nav > p {
+  padding-left: 15px;
+  padding-right: 15px;
+}

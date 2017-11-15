@@ -1,0 +1,60 @@
+.header {
+  background: #336CB1;
+  color: white;
+  font-size: 300%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  stroke: white;
+}
+
+.header > * {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.header > p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+
+.replay {
+  align-self: flex-end;
+  width: 15px;
+  opacity: 0.5;
+  transition: opacity 200ms 200ms;
+}
+.replay:hover {
+  opacity: 1.0;
+  transition: opacity 200ms 200ms;
+}
+
+
+
+.peterpeterblue, .johnjohnblue, .cliffordcliffordblue, .evansevansblue {
+  color: #F4B235;
+  stroke: #F4B235;
+  /*transition: color 200ms 200ms, stroke 200ms 200ms;*/
+}
+.whitepeterblue, .whitejohnblue, .whitecliffordblue, .whiteevansblue {
+  color: white;
+  stroke: white;
+  /*transition: color 200ms 200ms, stroke 200ms 200ms;*/
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .middles {
+      display: none;
+    }
+}
