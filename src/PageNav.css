@@ -9,3 +9,13 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.custom-modal {
+  width: 40.5%;
+  height: 100%;
+}
+
+.custom-modal > .modal-content, .modal-body, iframe {
+  height: 100%;
+  margin: 0;
+}

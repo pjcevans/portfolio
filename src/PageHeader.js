@@ -24,6 +24,7 @@ class PageHeader extends Component {
     clearInterval(this.state.intervalId);
   }
 
+
   startAnimation() {
     clearInterval(this.state.intervalId);
     this.setState({animate: ["peter", "john", "clifford", "evans"]});
@@ -92,7 +93,9 @@ class PageHeader extends Component {
           <span onMouseLeave={this.handleClear} onMouseEnter={this.handleEvans} className={this.state.activeClass + "evansblue"}>Evans</span>
         </p>
 
-        <MdReplay className="replay" onClick={() => this.startAnimation()}/>
+        <MdReplay size={24} className="replay" onClick={() => this.startAnimation()}/>
+
+
 
       </Row>
     );

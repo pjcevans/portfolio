@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skills > * {
+  margin-left: 1%;
+  margin-top: 0.3%;
+  color: #4E5B2A;
+}
+
+.panel-heading {
+  background: #4E5B2A !important;
+  color: white !important;
+}

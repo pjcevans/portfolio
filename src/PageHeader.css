@@ -23,7 +23,9 @@
 
 .replay {
   align-self: flex-end;
-  width: 15px;
+  min-width: 3%;
+  padding: 0;
+  margin: 0;
   opacity: 0.5;
   transition: opacity 200ms 200ms;
 }
