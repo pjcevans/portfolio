@@ -28,8 +28,8 @@ class PageNav extends Component {
     return(
       <Row className="nav">
 
-        <p>one</p>
-        <p>two</p>
+        <p><a href="#skills">Skills</a></p>
+        <p><a href="#work">Work</a></p>
         <p onClick={this.open}>Contact</p>
         <Modal show={this.state.showModal} onHide={this.close} dialogClassName="custom-modal">
 

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import PageHeader from "./PageHeader";
+import PageFooter from "./PageFooter";
 import PageNav from "./PageNav";
 import Skills from "./Skills";
+import Work from "./Work";
+import About from "./About";
 import { Grid } from "react-bootstrap";
 import './App.css';
 
@@ -16,9 +19,15 @@ class App extends Component {
 
         <PageHeader />
 
+        <Work />
+
+        <hr />
+
+        <About />
+
         <Skills />
 
-
+        <PageFooter />
 
       </Grid>
     );

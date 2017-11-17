@@ -1,0 +1,11 @@
+.footer {
+  background: #143879;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.footer  p {
+  opacity: 0.7;
+}

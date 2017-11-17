@@ -96,7 +96,6 @@ class PageHeader extends Component {
         <MdReplay size={24} className="replay" onClick={() => this.startAnimation()}/>
 
 
-
       </Row>
     );
   }

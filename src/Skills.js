@@ -34,7 +34,8 @@ const design = [
   { value: "WordPress", count: 50 },
   { value: "Drupal", count: 15 },
   { value: "Illustrator", count: 15 },
-  { value: "Photoshop", count: 15 }
+  { value: "Photoshop", count: 15 },
+  { value: "SCSS", count: 30 }
 ];
 
 const hosting = [
@@ -48,11 +49,20 @@ const build = [
   { value: "Babel", count: 25 },
   { value: "Browserify", count: 25 },
   { value: "Webpack", count: 35 },
+  { value: "Jest", count: 40 }
+];
+
+const languages = [
+  { value: "Javascript", count: 70 },
+  { value: "Python", count: 25 },
+  { value: "Ruby", count: 15 },
+  { value: "SQL", count: 25 }
 ];
 
 const Skills = (props) => {
   return(
     <Row className="skills">
+      <a name="skills"></a>
       <h2>Skills</h2>
       <Panel header="Data">
         <TagCloud
@@ -96,6 +106,15 @@ const Skills = (props) => {
           minSize={12}
           maxSize={35}
           tags={build}
+          colorOptions={{luminosity: "dark", hue: "blue"}} />
+      </Panel>
+
+      <Panel header="Languages">
+        <TagCloud
+          style={{"width": "200px"}}
+          minSize={12}
+          maxSize={35}
+          tags={languages}
           colorOptions={{luminosity: "dark", hue: "blue"}} />
       </Panel>
 

@@ -3,11 +3,19 @@
   justify-content: center;
   background: #143879;
   color: white;
+  font-size: 1.3em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav > p {
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 3px;
+  margin: 5px;;
 }
 
 .custom-modal {
