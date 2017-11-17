@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import { Row, ButtonToolbar, Button, Modal } from "react-bootstrap";
 import WorkModal from "./WorkModal";
 import "./Work.css";
-import dkpThumb from'./images/dkp-thumb.png';
-import todoThumb from'./images/todo-thumb.png';
+import dkpThumb from './images/dkp-thumb.png';
+import todoThumb from './images/todo-thumb.png';
+import dkpSampleData from './images/sampledata-content1.png';
+import dkpComparing from './images/dkpcomparing-content2.png';
+import dkpthunk from './images/thunk-content3.png';
+
 
 const modals = [
   {
@@ -12,12 +16,12 @@ const modals = [
     firstHeading: "Who",
     secondHeading: "What",
     thirdHeading: "Which",
-    firstContent: "A community of games regularly exported their scores as data but had no means to analyse trends or disparity",
-    secondContent: "The users wanted to be able to compare *changes* to selectable scores at any point over time",
+    firstContent: "A community of gamers regularly exported their scores as data but had no means to analyse trends or disparity",
+    secondContent: "The users wanted to be able to compare *changes* to selectable scores at any point over time, as well as to have a long term record of every score export.",
     thirdContent: "Since data had to be persisted for multiple users over time it made sense to set up a MongoDB solution. Redux was used as a data layer and asynchronous API call outcomes were managed using Thunk.",
-    firstImage: "www.lorem.com",
-    secondImage: "www.lorem.com",
-    thirdImage: "www.lorem.com",
+    firstImage: dkpSampleData,
+    secondImage: dkpComparing,
+    thirdImage: dkpthunk,
     repo: "https://github.com/pjcevans/retrowow-dkp-tracker",
     deploy: "http://vgdkp.herokuapp.com/#/ce"
   },

@@ -10,21 +10,20 @@ const WorkModal = (props) => {
         <Modal.Title id="contained-modal-title-lg">{props.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>{props.title}</h4>
         <Row className={"modal-row"}>
-          <p>{props.firstHeading}</p>
+          <h4>{props.firstHeading}</h4>
           <p>{props.firstContent}</p>
-          <p>{props.firstImage}</p>
+          <img src={props.firstImage} />
         </Row>
         <Row className={"modal-row"}>
-          <p>{props.secondHeading}</p>
+          <h4>{props.secondHeading}</h4>
           <p>{props.secondContent}</p>
-          <p>{props.secondImage}</p>
+          <img src={props.secondImage} />
         </Row>
         <Row className={"modal-row"}>
-          <p>{props.thirdHeading}</p>
+          <h4>{props.thirdHeading}</h4>
           <p>{props.thirdContent}</p>
-          <p>{props.thirdImage}</p>
+          <img src={props.thirdImage} />
         </Row>
       </Modal.Body>
       <Modal.Footer>

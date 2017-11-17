@@ -4,4 +4,16 @@
 
 .modal-row > * {
   margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-row > p {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.modal-row > img {
+  border: thin dashed grey;
 }
