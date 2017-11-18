@@ -1,5 +1,6 @@
 .modal-row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .modal-row > * {
