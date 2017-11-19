@@ -7,10 +7,11 @@
 .skills > * {
   margin-left: 1%;
   margin-top: 0.3%;
-  color: #4E5B2A;
+  color: #08916f;
+  height: 100%;
 }
 
 .panel-heading {
-  background: #4E5B2A !important;
+  background: #08916f !important;
   color: white !important;
 }

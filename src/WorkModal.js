@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Modal, Button } from "react-bootstrap";
 import './WorkModal.css';
+import WorkModalRow from "./WorkModalRow"
 
 
 const WorkModal = (props) => {
@@ -10,21 +11,19 @@ const WorkModal = (props) => {
         <Modal.Title id="contained-modal-title-lg">{props.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Row className={"modal-row"}>
-          <h4>{props.firstHeading}</h4>
-          <p>{props.firstContent}</p>
-          <img src={props.firstImage} />
-        </Row>
-        <Row className={"modal-row"}>
-          <h4>{props.secondHeading}</h4>
-          <p>{props.secondContent}</p>
-          <img src={props.secondImage} />
-        </Row>
-        <Row className={"modal-row"}>
-          <h4>{props.thirdHeading}</h4>
-          <p>{props.thirdContent}</p>
-          <img src={props.thirdImage} />
-        </Row>
+        <WorkModalRow
+          heading={props.firstHeading}
+          content={props.firstContent}
+          image={props.firstImage} />
+        <WorkModalRow
+          heading={props.secondHeading}
+          content={props.secondContent}
+          image={props.secondImage} />
+        <WorkModalRow
+          heading={props.thirdHeading}
+          content={props.thirdContent}
+          image={props.thirdImage} />
+
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
