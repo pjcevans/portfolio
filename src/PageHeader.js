@@ -64,26 +64,26 @@ class PageHeader extends Component {
       <Row className="header">
 
         <svg version="1.1"
-          xmlns="http://www.w3.org/2000/svg" xmlnslink="http://www.w3.org/1999/xlink" xmlnsA="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+          xmlns="http://www.w3.org/2000/svg" xmlnslink="http://www.w3.org/1999/xlink" xmlnsa="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
           x="0px" y="0px" width="83.5px" height="83px" viewBox="0 0 83.5 83" enable-background="new 0 0 83.5 83" xmlSpace="preserve">
           <defs>
           </defs>
-          <line className={this.state.activeClass + "johnblue" + " " + this.state.activeClass + "evansblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" x1="44" y1="10.5" x2="83" y2="10.5"/>
-          <line className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" x1="6" y1="10.5" x2="44" y2="10.5"/>
-          <polyline className={this.state.activeClass + "peterblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" points="3,81.5 3,10.5
+          <line className={this.state.activeClass + "johnblue" + " " + this.state.activeClass + "evansblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" x1="44" y1="10.5" x2="83" y2="10.5"/>
+          <line className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" x1="6" y1="10.5" x2="44" y2="10.5"/>
+          <polyline className={this.state.activeClass + "peterblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" points="3,81.5 3,10.5
             6,10.5 "/>
-          <path className={this.state.activeClass + "cliffordblue" + " " + this.state.activeClass + "evansblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M82.9,37.1
+          <path className={this.state.activeClass + "cliffordblue" + " " + this.state.activeClass + "evansblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M82.9,37.1
             c-56.2-7.9-57.5,51.8,0,41.8"/>
-          <path fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M33.7,0"/>
-          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue" + " " + this.state.activeClass + "evansblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M46.8,44.4
+          <path fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M33.7,0"/>
+          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue" + " " + this.state.activeClass + "evansblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M46.8,44.4
             c7-8.3,7.2-21.7-5.3-33.7"/>
-          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M7.3,45.2
+          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M7.3,45.2
             c16.2,11.3,31.9,8.2,39.5-0.9"/>
-          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M4.5,43.1
+          <path className={this.state.activeClass + "peterblue" + " " + this.state.activeClass + "johnblue"} fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M4.5,43.1
             c0.9,0.8,1.9,1.5,2.8,2.1"/>
-          <path fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M7,39.2"/>
-          <path fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M7,39.2"/>
-          <path fill="none" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M3.2,35.3"/>
+          <path fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M7,39.2"/>
+          <path fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M7,39.2"/>
+          <path fill="none" strokeWidth="6" strokeLinejoin="round" strokeMiterlimit="10" d="M3.2,35.3"/>
         </svg>
 
         <p>

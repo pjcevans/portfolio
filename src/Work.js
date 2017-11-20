@@ -7,6 +7,8 @@ import todoThumb from './images/todo-thumb.png';
 import dkpSampleData from './images/sampledata-content1.png';
 import dkpComparing from './images/dkpcomparing-content2.png';
 import dkpthunk from './images/thunk-content3.png';
+import githubLogo from "./images/github.svg"
+import herokuLogo from "./images/heroku.svg"
 
 
 const modals = [
@@ -23,7 +25,9 @@ const modals = [
     secondImage: dkpComparing,
     thirdImage: dkpthunk,
     repo: "https://github.com/pjcevans/retrowow-dkp-tracker",
-    deploy: "http://vgdkp.herokuapp.com/#/ce"
+    deploy: "http://vgdkp.herokuapp.com/#/ce",
+    repoLogo: githubLogo,
+    deployLogo: herokuLogo,
   },
   {
     thumbnail: todoThumb,
@@ -38,7 +42,9 @@ const modals = [
     secondImage: "www.lorem.com",
     thirdImage: "www.lorem.com",
     repo: "https://github.com/pjcevans/todo-react",
-    deploy: "https://todo-redux-react.herokuapp.com/"
+    deploy: "https://todo-redux-react.herokuapp.com/",
+    repoLogo: githubLogo,
+    deployLogo: herokuLogo
   }
 ];
 
@@ -87,7 +93,11 @@ class Work extends Component {
                   thirdContent={modal.thirdContent}
                   firstImage={modal.firstImage}
                   secondImage={modal.secondImage}
-                  thirdImage={modal.thirdImage} />
+                  thirdImage={modal.thirdImage}
+                  repo={modal.repo}
+                  deploy={modal.deploy}
+                  repoLogo={modal.repoLogo}
+                  deployLogo={modal.deployLogo} />
               </div>
             );
           })

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PageHeader from "./PageHeader";
 import PageFooter from "./PageFooter";
 import PageNav from "./PageNav";
@@ -10,30 +10,28 @@ import './App.css';
 
 
 
-class App extends Component {
-  render() {
-    return (
-      <Grid fluid={true}>
+const App = () => {
+  return (
+    <Grid fluid={true}>
 
-        <PageNav />
+      <PageNav />
 
-        <PageHeader />
+      <PageHeader />
 
-        <a name="work"></a>
-        <Work />
+      <a name="work"></a>
+      <Work />
 
-        <hr />
+      <hr />
 
-        <About />
+      <About />
 
-        <a name="skills"></a>
-        <Skills />
+      <a name="skills"></a>
+      <Skills />
 
-        <PageFooter />
+      <PageFooter />
 
-      </Grid>
-    );
-  }
+    </Grid>
+  );
 }
 
 export default App;

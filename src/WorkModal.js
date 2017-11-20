@@ -24,6 +24,32 @@ const WorkModal = (props) => {
           content={props.thirdContent}
           image={props.thirdImage} />
 
+          <div className="repo-link">
+        {
+          (props.repo)
+            ?
+            <div>
+              <a href={props.repo}>
+                <img src={props.repoLogo} alt="Github logo">
+                </img>
+                <h4>Source Code</h4>
+              </a>
+            </div>
+            : null
+        }
+        {
+          (props.deploy)
+            ?
+            <div>
+              <a href={props.deploy}>
+                <img src={props.deployLogo} alt="Github logo">
+                </img>
+              </a>
+            </div>
+            : null
+        }
+        </div>
+
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>

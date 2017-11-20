@@ -18,3 +18,26 @@
 .modal-row > img {
   border: thin dashed grey;
 }
+
+.repo-link {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.repo-link > div {
+  width: 15%;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.repo-link a {
+  color: black;
+}
+
+.repo-link > div > a > img {
+  width: 65%;
+  height: 65%;
+}
