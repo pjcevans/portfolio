@@ -9,7 +9,9 @@ import dkpComparing from './images/dkpcomparing-content2.png';
 import dkpthunk from './images/thunk-content3.png';
 import githubLogo from "./images/github.svg"
 import herokuLogo from "./images/heroku.svg"
-
+import subTodoGif from "./images/subtodo.gif"
+import reduxTodo from "./images/reduxtodo.gif"
+import stateTodo from "./images/statetodo.gif"
 
 const modals = [
   {
@@ -38,9 +40,9 @@ const modals = [
     firstContent: "I wanted to contribue to the open source learning community which has been so helpful in my own study. An advanced To Do application that showcases full CRUD functionality on the front-end using Redux seemed like an effective manner in which to help other developers to discover Redux.",
     secondContent: "The intention was to exemplify 'What I wish I had been told' when first starting out with Redux, such as how to use the Chrome DevTools extension, which is invaluable.",
     thirdContent: "The result is an app showing how actions can be triggered from anywhere in the app and the results are transparent, predictable, and testable.",
-    firstImage: "www.lorem.com",
-    secondImage: "www.lorem.com",
-    thirdImage: "www.lorem.com",
+    firstImage: subTodoGif,
+    secondImage: reduxTodo,
+    thirdImage: stateTodo,
     repo: "https://github.com/pjcevans/todo-react",
     deploy: "https://todo-redux-react.herokuapp.com/",
     repoLogo: githubLogo,
