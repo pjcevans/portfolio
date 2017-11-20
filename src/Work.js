@@ -12,6 +12,11 @@ import herokuLogo from "./images/heroku.svg"
 import subTodoGif from "./images/subtodo.gif"
 import reduxTodo from "./images/reduxtodo.gif"
 import stateTodo from "./images/statetodo.gif"
+import portfolioThumb from "./images/portfolio-thumb.png"
+import portfolioContent1 from "./images/portfolio-content1.png"
+import portfolioContent2 from "./images/portfolio-content2.png"
+import portfolioContent3 from "./images/pjce-icon.png"
+
 
 const modals = [
   {
@@ -47,6 +52,21 @@ const modals = [
     deploy: "https://todo-redux-react.herokuapp.com/",
     repoLogo: githubLogo,
     deployLogo: herokuLogo
+  },
+  {
+    thumbnail: portfolioThumb,
+    title: "This Site",
+    firstHeading: "Structure",
+    secondHeading: "Data",
+    thirdHeading: "Design",
+    firstContent: "The React app mostly consists of stateless functional components and grid components imported from react-bootstrap. Where necessary stateful components are used to maintain local state and utilise lifecycle methods.",
+    secondContent: "The app was made to be as simple as possible and so is serverless and imports locally coded content data, rather than using a microservice API to deliver content.",
+    thirdContent: "Design is also kept fairly simple and beyond applying a colour palette and using word clouds the only major design feature is the SVG logo - This is an SVG path which has been broken up into several paths to allow different letters to be formed and highlighted on mouseover or animation.",
+    firstImage: portfolioContent1,
+    secondImage: portfolioContent2,
+    thirdImage: portfolioContent3,
+    repo: "https://github.com/pjcevans/portfolio",
+    repoLogo: githubLogo
   }
 ];
 
