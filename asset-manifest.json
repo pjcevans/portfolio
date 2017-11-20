@@ -1,13 +1,15 @@
 {
   "main.css": "static/css/main.bb94fbb9.css",
   "main.css.map": "static/css/main.bb94fbb9.css.map",
-  "main.js": "static/js/main.68697f10.js",
-  "main.js.map": "static/js/main.68697f10.js.map",
+  "main.js": "static/js/main.2cd03b8b.js",
+  "main.js.map": "static/js/main.2cd03b8b.js.map",
   "static/media/dkp-thumb.png": "static/media/dkp-thumb.9e77dc6a.png",
   "static/media/dkpcomparing-content2.png": "static/media/dkpcomparing-content2.309ec716.png",
   "static/media/github.svg": "static/media/github.ce89173e.svg",
   "static/media/heroku.svg": "static/media/heroku.b38ff61a.svg",
   "static/media/sampledata-content1.png": "static/media/sampledata-content1.2cb18985.png",
+  "static/media/statetodo.gif": "static/media/statetodo.b5e0dae2.gif",
+  "static/media/subtodo.gif": "static/media/subtodo.e32367db.gif",
   "static/media/thunk-content3.png": "static/media/thunk-content3.90d10aef.png",
   "static/media/todo-thumb.png": "static/media/todo-thumb.f155a2a6.png"
 }
