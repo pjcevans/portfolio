@@ -19,12 +19,14 @@ class App extends Component {
 
         <PageHeader />
 
+        <a name="work"></a>
         <Work />
 
         <hr />
 
         <About />
 
+        <a name="skills"></a>
         <Skills />
 
         <PageFooter />

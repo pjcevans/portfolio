@@ -35,7 +35,8 @@ const design = [
   { value: "Drupal", count: 15 },
   { value: "Illustrator", count: 15 },
   { value: "Photoshop", count: 15 },
-  { value: "SCSS", count: 30 }
+  { value: "SCSS", count: 30 },
+  { value: "JSX", count: 60 }
 ];
 
 const hosting = [
@@ -62,7 +63,7 @@ const languages = [
 const Skills = (props) => {
   return(
     <Row className="skills">
-      <a name="skills"></a>
+      
       <h2>Skills</h2>
       <Panel header="Data">
         <TagCloud

@@ -8,10 +8,10 @@
   margin-left: 1%;
   margin-top: 0.3%;
   color: #08916f;
-  height: 100%;
 }
 
 .panel-heading {
   background: #08916f !important;
   color: white !important;
+  font-size: 1.5em;
 }
