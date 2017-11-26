@@ -48,7 +48,7 @@ const hosting = [
 const build = [
   { value: "npm", count: 55 },
   { value: "Babel", count: 25 },
-  { value: "Browserify", count: 25 },
+  { value: "Browserify", count: 35 },
   { value: "Webpack", count: 35 },
   { value: "Jest", count: 40 }
 ];
@@ -63,7 +63,7 @@ const languages = [
 const Skills = (props) => {
   return(
     <Row className="skills">
-      
+
       <h2>Skills</h2>
       <Panel header="Data">
         <TagCloud
